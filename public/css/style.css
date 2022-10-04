@@ -1,0 +1,736 @@
+.farmjob-card .farmjob-card-body img {
+    width: 100%;
+    height: 300px !important;
+    border-radius: 4px;
+    object-fit: cover;
+}
+.latest-jobs .job-card-btn, .apply-btn, .bp-card-btn a {
+    display: inline-block;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color: #FFFFFF;
+    background: #EE5526;
+    border-radius: 10px 10px 10px 0px;
+    padding: 12px 20px;
+    align-self: flex-start;
+    border: 1px solid;
+    text-decoration: none;
+}
+.lf-farmjob-pagination .farm-job-flex {
+    display: flex;
+    padding-bottom: 0px !important;
+    flex-wrap: wrap;
+}
+.lf-farmjob-pagination .farmjob-card {
+    margin-bottom: 0;
+    padding-bottom: 50px;
+}
+.job-card, .lf-farmjob-pagination .farmjob-card, .bp-blog-flex {
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+    margin-bottom: 0 !important;
+}
+.latest-jobs .job-card, .farmjob-card-body, .bp-blog-card {
+    /* height: 100%; */
+    flex: 1;
+}
+
+.search-key-drop {
+    display: flex;
+    margin-bottom: 20px !important;
+    justify-content: space-between;
+}
+.search-key-drop>div, .search-key-drop>select {
+    width: 33.33% !important;
+    display: inline-flex;
+}
+.search-key-drop .search-farm-bar, .search-key-drop .key-farm-locate {
+    position: relative;
+    margin-right: 25px;
+}
+.colu-4 {
+    width: 33.33%;
+}
+.search-key-drop input, .search-key-drop select {
+    font-family: 'Circular Std', sans-serif;
+    font-style: normal;
+    font-weight: var(--circular-book);
+    font-size: 18px;
+    line-height: 22px;
+    color: var(--white-darker);
+}
+.search-key-drop input, .search-key-drop select {
+    border: 1px solid #B8B8B8;
+    border-radius: 10px !important;
+    min-height: 50px;
+    padding: 0 10px;
+    width: 100%;
+}
+.search-key-drop input {
+    padding-left: 55px !important;
+}
+.search-key-drop .search-farm-bar::before, .search-key-drop .blog-search-bar::before {
+    content: '';
+    background-image: url(https://leftfield.net.au/wp-content/uploads/2022/05/search-normal.png);
+    position: absolute;
+    background-repeat: no-repeat;
+    width: 25px;
+    height: 25px;
+    top: 15px;
+    left: 15px;
+}
+.search-key-drop .key-farm-locate::before {
+    content: '';
+    background-image: url(https://leftfield.net.au/wp-content/uploads/2022/05/location.png);
+    position: absolute;
+    background-repeat: no-repeat;
+    width: 25px;
+    height: 25px;
+    top: 15px;
+    left: 15px;
+}
+.custom-container {
+    width: 75% !important;
+    max-width: 100% !important;
+    margin: 0 auto !important;
+}
+.farm-job-flex .colu-4 .farmjob-card a {
+    text-decoration: none;
+    font-family: 'Circular Std', sans-serif !important;
+}
+.farmjob-card-body a:focus, a:hover {
+    color: #515151 !important;
+    text-decoration: underline;
+    border: 1px solid #ee5526;
+    background-color: #ffffff;
+}
+.farmjob-card-title {
+    color: #515151;
+    text-decoration: none;
+    margin: 0 !important;
+    padding: 20px 0 10px 0;
+    font-size: 24px;
+    font-weight: 400 !important;
+    text-transform: capitalize;
+    font-family: 'Circular Std', sans-serif !important;
+}
+.farmjob-card-body p {
+    color: #515151;
+    margin: 0 !important;
+    padding: 10px 0;
+    font-size: 18px;
+    font-weight: 400 !important;
+    text-transform: capitalize;
+    font-family: 'Circular Std', sans-serif !important;
+}
+.farm-job-flex {
+    display: inline-block !important;
+    width: 100%;
+}
+.farm-job-flex .colu-4 {
+    display: inline-block;
+    width: 33% !important;
+    padding: 0 15px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+}
+.farm-job-flex .colu-4 .farmjob-card {
+    padding-bottom: 20px !important;
+}
+.custom-fj-number h4 {
+    margin: 0 !important;
+    padding-bottom: 10px;
+    font-size: 20px;
+    font-weight: 500;
+    border-bottom: 1px solid #ee5526;
+}
+.custom-pagination a.next.page-numbers {
+    text-align: unset !important;
+    margin: 0 !important;
+}
+.custom-pagination {
+    display: flex !important;
+    justify-content: center;
+    margin: 0 !important;
+    padding: 10px 0;
+}
+.custom-pagination .prev {
+    margin: 0 !important;
+    margin-right: 10px !important;
+}
+.custom-pagination span, .custom-pagination a {
+    font-size: 14px;
+    border-bottom: 1px solid #ee5526;
+    padding: 0px 5px;
+    font-family: 'Circular Std', sans-serif !important;
+    margin-right: 10px;
+    color: #ee5526 !important;
+}
+.custom-pagination .current {
+    color: #515151 !important;
+    border-color: #515151;
+}
+.custom-pagination a:hover {
+    text-decoration: none !important;
+    color: #515151 !important;
+    border-color: #515151;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #515151;
+}
+.custom-form-title h1 {
+    font-size: 50px;
+    color: #231f20;
+    font-family: 'Circular Std', sans-serif !important;
+    font-weight: 600;
+    margin: 0 !important;
+    align-self: center;
+}
+.custom-form-title {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+.custom-form-title-image img {
+    width: 100%;
+}
+/*#applyform input, #applyform select {
+    height: 45px;
+    line-height: 40px;
+    padding: 0 10px;
+    color: #000000;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    outline: 0;
+    border: 1px solid #cccccc;
+}
+#applyform textarea {
+    height: 145px;
+    line-height: 40px;
+    padding: 0 10px;
+    color: #000000;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    outline: 0;
+    border: 1px solid #cccccc;
+}*/
+#applyform input[type="submit"] {
+    color: #ffffff !important;
+    width: auto;
+}
+
+/***********multistep-form-22-07-22************/
+
+
+.my-multistep-form {
+    background-color: #ffffff;
+    padding: 40px !important;
+    width: 85%;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+/* Mark input boxes that gets an error on validation: */
+.my-multistep-form input.invalid {
+  background-color: #ffdddd !important;
+}
+/* Hide all steps by default: */
+.tab {
+  display: none;
+}
+.my-mt-buttons button, .my-mt-buttons input {
+    background-color: #ee5526 !important;
+    color: #ffffff !important;
+    border: none !important;
+    padding: 10px 25px !important;
+    font-size: 18px !important;
+    border-radius: 10px !important;
+}
+.my-mt-buttons button, .my-mt-buttons input:focus {
+    outline: 0 !important;
+    text-decoration: none !important;
+}
+.my-mt-buttons input:hover {
+    opacity: 0.8 !important;
+    text-decoration: none !important;
+}
+.my-mt-buttons button:hover {
+  opacity: 0.8;
+}
+.my-mt-buttons #prevBtn {
+  background-color: #bbbbbb !important;
+}
+/* Make circles that indicate the steps of the form: */
+.step {
+    display: inline-block;
+    opacity: 1;
+    position: relative;
+    background-color: transparent;
+    margin-right: 80px;
+}
+.step p {
+    margin: 0;
+    background-color: #ffffff;
+    height: 60px;
+    width: 60px;
+    line-height: 50px;
+    border-radius: 50%;
+    font-size: 20px;
+    font-weight: 700;
+    color: #575e65;
+    border: 4px solid #dadada;
+    
+}
+/* Mark the steps that are finished and valid: */
+.step.finish {
+    color: #ffffff;
+    border: 4px solid #ee5526;
+    border-radius: 50%;
+    padding: 10px;
+    background-color: #ffffff;
+}
+.step.finish:before {
+    background-color: #000000;
+}
+.step:before {
+    content: '';
+    position: absolute;
+    width: 120px;
+    height: 3px;
+    background-color: #dadada;
+    top: 50%;
+    left: 55px;
+    z-index: -1;
+}
+.step .lastchild {
+    margin: 0 !important;
+}
+.step.active p {
+    background-color: #ee5526;
+    color: #ffffff;
+    border: none;
+    line-height: 55px;
+    height: 55px;
+    width: 55px;
+}
+.step.finish p {
+    background-color: #ee5526;
+    color: #ffffff;
+    border: none;
+    line-height: 55px;
+}
+.step.finish:before {
+    background-color: #f8592d;
+}
+.step.lastchild:before {
+    content: '';
+    position: unset !important;
+}
+.step.active {
+    opacity: 1;
+    color: #ffffff;
+    border: 4px solid #ee5526;
+    border-radius: 50%;
+    padding: 10px;
+    background-color: #ffffff;
+}
+.custom-leftfield {
+    padding: 60px 0;
+}
+.tab-content-input {
+    width: 49%;
+    display: inline-block;
+    padding-right: 10px;
+    margin-bottom: 30px;
+    vertical-align: top;
+}
+.tab-content-input.lastchild {
+    padding-right: 0 !important;
+    padding-left: 10px;
+}
+.tab-content-input label {
+    font-size: 16px;
+    color: #888888;
+    font-weight: 400;
+    margin: 0;
+    padding-bottom: 5px;
+    display: inline-block;
+    text-transform: capitalize;
+    word-break: break-word;
+}
+.tab-content-input span {
+    color: #ee5526;
+    font-size: 18px;
+    font-weight: 600;
+    vertical-align: bottom;
+    padding-left: 5px;
+}
+.my-multistep-form .tab-content-input input, .my-multistep-form .tab-content-input select {
+    width: 100%;
+    height: 45px;
+    line-height: 40px;
+    font-size: 16px !important;
+    border: 1px solid #cccccc !important;
+    background-color: #f1f1f1;
+    border-radius: 10px !important;
+    outline: 0;
+    padding: 0 10px !important;
+}
+.my-multistep-form .tab-content-input textarea {
+    width: 100%;
+    height: 145px;
+    line-height: 40px;
+    font-size: 16px !important;
+    border: 1px solid #cccccc !important;
+    background-color: #f1f1f1 !important;
+    border-radius: 10px !important;
+    outline: 0;
+    padding: 0 10px !important;
+}
+.custom-button {
+    text-align: center;
+    padding-top: 20px;
+}
+.custom-button button:focus {
+    outline: 0 !important;
+}
+.mt-form-heading {
+    text-align: center;
+    font-size: 30px;
+    margin: 0;
+    padding-bottom: 15px;
+    font-weight: 600;
+    color: #000000;
+}
+.progressbar {
+    padding: 40px 0;
+}
+.application-input label {
+    font-size: 16px;
+    color: #888888;
+    font-weight: 400;
+    margin: 0;
+    padding-bottom: 5px;
+}
+.application-input {
+    margin-bottom: 30px;
+}
+.application-input label span {
+    color: #ee5526;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+
+.leftfield-top-content {
+    text-align: center;
+    padding: 40px 0;
+}
+.leftfield-top-content h2 {
+    font-size: 40px;
+    font-weight: 600;
+    margin: 0;
+    color: #000000;
+}
+.leftfield-top-content h4 {
+    color: #ff5d33;
+    font-size: 30px;
+    margin: 0;
+}
+.leftfield-top-content h6 {
+    margin: 0;
+    color: #ff5d33;
+    font-size: 20px;
+    padding: 20px 0;
+}
+.inner-leftfield-ct p {
+    margin: 0;
+    padding-bottom: 10px;
+    font-size: 16px;
+    color: #000000;
+    font-weight: 500;
+}
+.inner-leftfield-ct p i {
+    color: #ff5d33;
+    font-size: 24px;
+    padding-right: 10px;
+    vertical-align: middle;
+}
+.upload-content {
+    padding: 40px;
+    box-shadow: 0px 0px 12px 0px #cccccc;
+    margin: 0 20px;
+    text-align: center;
+    border-radius: 5px;
+}
+/*.inner-upload-content {
+    border: 1.5px dashed #ed532f;
+    padding: 80px 30px;
+}*/
+.inner-upload-content h6 {
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #848A96;
+    font-weight: 400;
+    margin: 0;
+    padding-bottom: 20px;
+}
+.inner-upload-content h4 {
+    font-size: 16px;
+    margin: 0;
+    color: #000000;
+    padding: 15px 0;
+}
+.inner-upload-content p {
+    font-size: 14px;
+    line-height: 20px;
+    color: #848A96;
+    font-weight: 400;
+    margin: 0;
+}
+.bottom-upload-ct {
+    padding-top: 60px;
+}
+.check-upload-ct input {
+    width: auto;
+    height: auto;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+.check-upload-ct label {
+    margin: 0;
+    display: inline-block;
+    vertical-align: middle;
+    color: #000000;
+    font-size: 18px;
+    font-weight: 500;
+}
+.bottom-upload-ct p {
+    color: #000000;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 0;
+    padding-bottom: 40px;
+}
+
+/**********26-07-2022*************/
+
+.farmjob-card-text i {
+    font-size: 18px;
+    padding-right: 5px;
+    color: #515151;
+}
+.my-multistep-form > div:nth-child(2) .tab-content-input {
+    width: 100% !important;
+}
+.my-multistep-form > div:nth-child(4) .tab-content-input {
+    width: 100% !important;
+}
+.my-multistep-form .custom-checkbox-btn input[type="checkbox"] {
+    width: unset !important;
+    height: 15px !important;
+    border-radius: 0 !important;
+    padding: 0 !important;
+    line-height: 0 !important;
+    background-color: transparent !important;
+}
+.my-multistep-form .custom-checkbox-btn input[type="checkbox"]:focus {
+    outline: 0 !important;
+}
+.my-multistep-form .custom-radio-btn input[type="radio"] {
+    width: unset !important;
+    height: unset !important;
+    line-height: 0 !important;
+    border-radius: 0 !important;
+}
+
+/*******job-details 28-07-2022*********/
+
+.wanted-farm {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #DADADA;
+}
+.wanted-content {
+    width: 65%;
+}
+.wanted-content-image {
+    width: 35%;
+}
+.wanted-farm-sec {
+    padding-bottom: 0;
+}
+.wanted-content h1 {
+    font-size: 48px;
+    color: #192B3D;
+    font-weight: 600;
+    margin: 0;
+    padding-bottom: 5px;
+    line-height: 50px;
+    text-transform: capitalize;
+}
+.wanted-content h4 {
+    color: #192B3D;
+    font-weight: 400;
+    font-size: 30px;
+    margin: 0;
+    padding: 30px 0;
+    line-height: 30px;
+}
+.wanted-ct-button a {
+    font-size: 22px;
+    line-height: 25px;
+    color: #454842;
+    text-decoration: none;
+}
+.wanted-ct-button a:hover, .wanted-ct-button a:focus {
+    border:0 !important;
+    background-color: transparent !important;
+}
+.wanted-ct-button i {
+    padding-right: 10px;
+    font-size: 22px;
+    color: #454842;
+}
+.wanted-ct-button {
+    padding-bottom: 20px;
+}
+.wanted-content-image img {
+    width: 100%;
+}
+
+.harvest-sec {
+    padding: 80px 0;
+}
+.inner-havest-ct p {
+    font-size: 22px;
+    line-height: 30px;
+    color: #575E65;
+    margin: 0;
+    padding-bottom: 30px;
+    text-transform: capitalize;
+}
+.harvest-button {
+    padding-top: 10px;
+}
+.inner-havest-ct h3 {
+    font-size: 24px;
+    line-height: 30px;
+    color: #000000;
+    margin: 0;
+    padding-bottom: 30px;
+    font-weight: 400;
+}
+.inner-havest-ct h2 {
+    font-size: 24px;
+    line-height: 30px;
+    color: #000000;
+    margin: 0;
+    padding-bottom: 20px;
+    font-weight: 600;
+}
+.inner-havest-ct ul li {
+    display: inline-block;
+    width: 100%;
+    font-size: 22px;
+    line-height: 30px;
+    color: #575E65;
+    padding-bottom: 25px;
+    margin: 0;
+}
+.inner-havest-ct ul {
+    margin: 0;
+    padding: 20px 0;
+}
+.inner-havest-ct ul li i {
+    color: #d74e25;
+    font-size: 24px;
+    padding-right: 15px;
+}
+
+.inner-havest-ct p span{
+    color: #000000;
+}
+
+.upload-content label.file {
+    position: relative;
+    display: block;
+    width: 100%;
+    font-size: 80%;
+    text-align: center;
+    text-transform: uppercase;
+    border: 1.5px dashed #ed532f;
+    padding: 55px 30px;
+    margin: 0;
+    min-height: 300px;
+}
+.upload-content label.file:hover {
+    background-color: #fcede8;
+    border-color: #ee5526 !important;
+}
+.upload-content label.file:active,
+.upload-content label.file.focus {
+    border-color: #000000;
+}
+.upload-content input[type=file] {
+    
+        position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    outline: 0;
+    border: 1px solid red;
+
+}
+.upload-content .sml {
+    display: inline-block;
+    color: #eee;
+    background-color: #ee5526;
+    border-radius: 10px;
+    font-size: 12px;
+    margin: 10px 0 0 0;
+    padding: 10px 10px;
+}
+/*.custom-upload-file {
+    display: flex;
+    justify-content: space-between;
+}*/
+.custom-upload-file-wrap {
+    width: 100%;
+}
+
+/*******01-08-2022********/
+.htmlshow span {
+    width: 100%;
+    margin-bottom: 5px !important;
+    margin-top: 15px !important;
+}
+.htmlshow {
+    text-align: center;
+    color: #ee5526;
+    font-weight: 700;
+    font-size: 14px;
+}
+.inner-upload-content img {
+    margin: 0 auto;
+}
+
+/*************03-08-2022************/
+
+.my-multistep-form > div:nth-child(3) .tab-content-input {
+    width: 100%;
+}
+/*.my-multistep-form > div:nth-child(3) .tab-content-input:nth-child(2), .my-multistep-form > div:nth-child(3) .tab-content-input:nth-child(3) {
+    width: 49%;
+}*/
+.my-multistep-form > div:nth-child(3) .tab-content-input label {
+    color: #000000 !important;
+    font-weight: 500;
+}

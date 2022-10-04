@@ -1,0 +1,725 @@
+@media screen and (max-width:1399px) {
+    .custom-container {
+        width: 90% !important;
+    }
+}
+@media screen and (max-width:1199px) {
+    /*.inner-upload-content {
+        padding: 50px 30px;
+    }*/
+    .upload-content {
+        margin: 0 15px;
+    }
+    .farm-job-flex .colu-4 {
+        width: 32% !important;
+    }
+    .farmjob-card .farmjob-card-body img {
+        height: 225px !important;
+    }
+}
+
+@media screen and (max-width:991px) {
+    .my-multistep-form {
+        padding: 30px !important;
+        width: 100%;
+    }
+    .tab-content-input {
+        margin-bottom: 15px;
+    }
+    .tab-content {
+        padding-top: 30px;
+    }
+    .leftfield-top-content {
+        padding-bottom: 20px;
+    }
+    .leftfield-top-content h2 {
+        font-size: 34px;
+    }
+    .leftfield-top-content h4 {
+        font-size: 24px;
+    }
+    .inner-leftfield-ct p {
+        padding-bottom: 5px;
+        font-size: 14px;
+    }
+    .step.active {
+        border: 4px solid #ee5526;
+        padding: 8px;
+    }
+    .tab-content-input label {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .custom-leftfield {
+        padding: 40px 0;
+    }
+    .step.active p {
+        line-height: 50px;
+        height: 50px;
+        width: 50px;
+        font-size: 20px;
+    }
+    .step p {
+        line-height: 45px;
+        height: 55px;
+        width: 56px;
+        font-size: 20px;
+        border: 4px solid #dadada;
+    }
+    .step.finish {
+        border: 4px solid #ee5526;
+        padding: 8px;
+    }
+    .upload-content {
+        padding: 30px;
+        margin: 0;
+    }
+    /*.inner-upload-content {
+        padding: 40px 30px;
+    }*/
+    .bottom-upload-ct p {
+        font-size: 15px;
+    }
+    .check-upload-ct label {
+        font-size: 15px;
+    }
+    .application-input label {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .bottom-upload-ct {
+        padding-top: 50px;
+    }
+    .my-mt-buttons button, .my-mt-buttons input {
+        padding: 10px 20px !important;
+        font-size: 16px !important;
+    }
+    .mt-form-heading {
+        font-size: 28px;
+        line-height: 24px;
+    }
+    .application-input {
+        margin-bottom: 15px;
+    }
+    .step.finish {
+        border: 3px solid #ee5526;
+    }
+    .step.finish p {
+        line-height: 45px;
+        height: 45px;
+        width: 45px;
+        font-size: 18px;
+    }
+    .faq-input label {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .faq-input {
+        margin-bottom: 15px;
+    }
+    .mt-form-paragraph {
+        font-size: 16px;
+    }
+    .wanted-content h1 {
+        font-size: 36px;
+        line-height: 40px;
+    }
+    .wanted-content h4 {
+        font-size: 26px;
+        padding: 25px 0;
+    }
+    .wanted-ct-button a {
+        font-size: 20px;
+    }
+    .harvest-sec {
+        padding: 60px 0;
+    }
+    .wanted-ct-button i {
+        font-size: 20px;
+    }
+    .wanted-farm {
+        padding-bottom: 30px;
+    }
+    .inner-havest-ct p {
+        font-size: 20px;
+    }
+    .inner-havest-ct ul li {
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .inner-havest-ct h3 {
+        font-size: 22px;
+        padding-bottom: 20px;
+    }
+    .inner-havest-ct h2 {
+        font-size: 22px;
+    }
+    
+    .farm-job-flex .colu-4 {
+        width: 49% !important;
+        margin-bottom: 30px;
+    }
+    .farmjob-card-body p {
+        padding: 8px 0;
+        font-size: 16px;
+    }
+    .latest-jobs .job-card-btn, .apply-btn, .bp-card-btn a {
+        font-size: 18px;
+        padding: 10px 15px;
+    }
+    .search-key-drop input, .search-key-drop select {
+        min-height: 40px;
+        height: 45px;
+        padding: 0 10px;
+        font-size: 14px !important;
+    }
+    .search-key-drop input {
+        padding-left: 45px !important;
+    }
+    .search-key-drop .key-farm-locate::before {
+        top: 12px;
+        background-size: 9%;
+    }
+    .search-key-drop .search-farm-bar::before, .search-key-drop .blog-search-bar::before {
+        top: 12px;
+        background-size: 9%;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .leftfield-top-content h2 {
+        font-size: 32px;
+    }
+    .leftfield-top-content h4 {
+        font-size: 22px;
+    }
+    .leftfield-top-content h6 {
+        font-size: 18px;
+        padding: 15px 0;
+    }
+    .step {
+        margin-right: 50px;
+    }
+    .step.active p {
+        line-height: 45px;
+        height: 45px;
+        width: 45px;
+        font-size: 18px;
+    }
+    .leftfield-top-content {
+        padding-bottom: 0;
+    }
+    .step p {
+        line-height: 45px;
+        height: 50px;
+        width: 50px;
+        font-size: 18px;
+        border: 3px solid #dadada;
+    }
+    .step:before {
+        left: 25px;
+    }
+    .step.active {
+        border: 3px solid #ee5526;
+    }
+    .mt-form-heading {
+        font-size: 22px;
+        line-height: 22px;
+    }
+    .my-multistep-form {
+        padding: 20px !important;
+    }
+    .tab-content-input {
+        width: 100%;
+        padding: 0;
+    }
+    .tab-content-input.lastchild {
+        padding-left: 0;
+    }
+    .my-multistep-form input {
+        width: 100%;
+        height: 40px;
+        line-height: 35px;
+    }
+    .custom-button {
+        padding-top: 10px;
+    }
+    .mt-form-paragraph {
+        margin: 0;
+    }
+    .upload-content {
+        margin-bottom: 20px;
+    }
+    .check-upload-ct input {
+        width: auto !important;
+        height: auto !important;
+    }
+    .bottom-upload-ct p {
+        padding-bottom: 30px;
+    }
+    .check-upload-ct label {
+        font-size: 14px;
+    }
+    .bottom-upload-ct {
+        padding-top: 30px;
+    }
+    .bottom-upload-ct p {
+        font-size: 14px;
+    }
+    
+    .wanted-content h1 {
+        font-size: 30px;
+        line-height: 34px;
+    }
+    .wanted-content h4 {
+        font-size: 22px;
+        padding: 20px 0;
+    }
+    .wanted-ct-button {
+        padding-bottom: 15px;
+    }
+    .wanted-ct-button a {
+        font-size: 18px;
+    }
+    .wanted-ct-button i {
+        padding-right: 8px;
+        font-size: 18px;
+    }
+    .harvest-sec {
+        padding: 50px 0;
+    }
+    .inner-havest-ct p {
+        font-size: 18px;
+        line-height: 24px;
+        padding-bottom: 25px;
+    }
+    .inner-havest-ct h3 {
+        font-size: 20px;
+    }
+    .inner-havest-ct ul li {
+        font-size: 18px;
+        padding-bottom: 15px;
+    }
+    .inner-havest-ct ul li i {
+        font-size: 20px;
+        padding-right: 10px;
+    }
+    .inner-havest-ct ul {
+        padding: 15px 0;
+    }
+    .inner-havest-ct h2 {
+        font-size: 20px;
+    }
+    .wanted-farm {
+        display: inline-block;
+        width: 100%;
+    }
+    .wanted-content {
+        width: 100%;
+    }
+    .wanted-content-image {
+        width: 50%;
+        margin: 0 auto;
+        padding-top: 10px;
+    }
+    
+    .search-key-drop {
+        display: inline-block;
+        width: 100%;
+    }
+    .search-key-drop .search-farm-bar, .search-key-drop .key-farm-locate {
+        margin-right: 0;
+        padding-bottom: 20px;
+        width: 100%;
+    }
+    .search-key-drop select {
+        margin-right: 0;
+        width: 100%;
+    }
+    .custom-form-title h1 {
+        font-size: 34px;
+    }
+    .custom-form-title {
+        padding-bottom: 25px;
+    }
+    .custom-fj-number h4 {
+        font-size: 18px;
+    }
+    .search-key-drop .search-farm-bar::before, .search-key-drop .blog-search-bar::before {
+        top: 13px;
+        background-size: 20px;
+        left: 10px;
+    }
+    .search-key-drop .key-farm-locate::before {
+        top: 13px;
+        background-size: 20px;
+        left: 10px;
+    }
+    .search-key-drop input {
+        padding-left: 40px !important;
+    }
+    .custom-form-title-image {
+        width: 18%;
+    }
+    .custom-button input#nextBtn {
+        width: auto;
+    }
+    .custom-upload-file-wrap {
+        width: 50%;
+        margin: 0 auto;
+    }
+    .upload-content label.file {
+        min-height: 275px;
+    }
+}
+
+@media screen and (max-width:640px) {
+    .wanted-farm-sec {
+        padding-top: 40px;
+    }
+    .wanted-content-image {
+        width: 45%;
+    }
+    .wanted-content h4 {
+        font-size: 20px;
+        padding: 15px 0;
+    }
+    .wanted-ct-button a {
+        font-size: 16px;
+    }
+    .wanted-ct-button i {
+        font-size: 16px;
+    }
+    .wanted-farm {
+        padding-bottom: 20px;
+    }
+    .harvest-sec {
+        padding: 40px 0;
+    }
+    .inner-havest-ct p {
+        font-size: 16px;
+        line-height: 22px;
+        padding-bottom: 20px;
+    }
+    .inner-havest-ct h3 {
+        font-size: 18px;
+        padding-bottom: 15px;
+    }
+    .inner-havest-ct ul {
+        padding: 10px 0;
+    }
+    .inner-havest-ct ul li {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .inner-havest-ct h2 {
+        font-size: 18px;
+        padding-bottom: 15px;
+    }
+    .harvest-button a {
+        font-size: 16px;
+        padding: 8px 16px;
+    }
+    .farm-job-flex .colu-4 {
+        width: 100% !important;
+        padding: 0 !important;
+    }
+    .farmjob-card .farmjob-card-body img {
+        height: 300px !important;
+    }
+    .search-key-drop input {
+        padding-left: 35px !important;
+    }
+    .custom-form-title-image {
+        width: 20%;
+    }
+    .my-multistep-form .tab-content-input input, .my-multistep-form .tab-content-input select {
+        font-size: 16px !important;
+    }
+    .custom-upload-file-wrap {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width:575px) {	
+    .custom-leftfield {
+        padding: 30px 0;
+    }
+    .leftfield-top-content h2 {
+        font-size: 28px;
+    }
+    .leftfield-top-content h4 {
+        font-size: 20px;
+    }
+    .leftfield-top-content h6 {
+        font-size: 16px;
+    }
+    .inner-leftfield-ct p i {
+        font-size: 20px;
+    }
+    .mt-form-heading {
+        font-size: 20px;
+        line-height: 22px;
+    }
+    .step.active p {
+        line-height: 40px;
+        height: 40px;
+        width: 40px;
+        font-size: 16px;
+    }
+    .step p {
+        line-height: 40px;
+        height: 45px;
+        width: 45px;
+        font-size: 16px;
+    }
+    .step.active {
+        padding: 5px;
+    }
+    .step.finish {
+        padding: 5px;
+    }
+    .step.finish p {
+        line-height: 40px;
+        height: 40px;
+        width: 40px;
+        font-size: 16px;
+    }
+    .step {
+        margin-right: 40px;
+    }
+    .step:before {
+        width: 75px;
+    }
+    .wanted-farm-sec {
+        padding-top: 30px;
+    }
+    .wanted-content h1 {
+        font-size: 26px;
+        line-height: 30px;
+    }
+    .wanted-content h4 {
+        line-height: 24px;
+    }
+    .wanted-ct-button {
+        padding-bottom: 10px;
+    }
+    .wanted-ct-button a {
+        font-size: 14px;
+    }
+    .wanted-content-image {
+        width: 40%;
+    }
+    .harvest-sec {
+        padding: 30px 0;
+    }
+    .inner-havest-ct p {
+        font-size: 14px;
+        line-height: 20px;
+        padding-bottom: 15px;
+    }
+    .inner-havest-ct h3 {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .inner-havest-ct ul li {
+        font-size: 14px;
+        padding-bottom: 10px;
+    }
+    .inner-havest-ct ul li i {
+        font-size: 18px;
+        vertical-align: middle;
+    }
+    .inner-havest-ct ul {
+        padding: 0 0 10px 0;
+    }
+    .inner-havest-ct h2 {
+        font-size: 16px;
+    }
+    .inner-havest-ct h2 {
+        line-height: 22px;
+    }
+    .custom-form-title h1 {
+        font-size: 28px;
+    }
+    .farmjob-card .farmjob-card-body img {
+        height: 250px !important;
+    }
+    .farm-job-flex .colu-4 .farmjob-card {
+        padding-bottom: 10px !important;
+    }
+    .search-key-drop input, .search-key-drop select {
+        height: 40px;
+    }
+    .search-key-drop .search-farm-bar::before, .search-key-drop .blog-search-bar::before {
+        top: 8px;
+        left: 8px;
+    }
+    .search-key-drop .key-farm-locate::before {
+        top: 8px;
+        left: 8px;
+    }
+    .my-multistep-form .tab-content-input input, .my-multistep-form .tab-content-input select {
+        height: 40px;
+        line-height: 35px;
+    }
+    .my-multistep-form .tab-content-input input, .my-multistep-form .tab-content-input select {
+        font-size: 14px !important;
+    }
+    .custom-upload-file-wrap {
+        width: 100%;
+    }
+    .inner-upload-content h4 {
+        font-size: 14px;
+        padding: 10px 0;
+    }
+    .upload-content label.file {
+        min-height: 240px;
+        padding: 40px 25px;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .custom-leftfield {
+        padding: 20px 0;
+    }
+    .progressbar {
+        padding: 20px 0;
+    }
+    .leftfield-top-content h2 {
+        font-size: 22px;
+    }
+    .leftfield-top-content h4 {
+        font-size: 18px;
+    }
+    .leftfield-top-content h6 {
+        font-size: 14px;
+        padding: 10px 0;
+    }
+    .step p {
+        line-height: 35px;
+        height: 40px;
+        width: 40px;
+        font-size: 14px;
+        border: 2px solid #dadada;
+    }
+    .step.active {
+        border: 2px solid #ee5526;
+    }
+    .step.active p {
+        line-height: 35px;
+        height: 35px;
+        width: 35px;
+        font-size: 14px;
+    }
+    .step {
+        margin-right: 10px;
+    }
+    .my-multistep-form {
+        padding: 20px 10px !important;
+    }
+    .step.finish {
+        border: 2px solid #ee5526;
+    }
+    .step.finish p {
+        line-height: 35px;
+        height: 35px;
+        width: 35px;
+        font-size: 14px;
+    }
+    .tab-content {
+        padding-top: 15px;
+    }
+    .my-multistep-form input {
+        height: 35px;
+        line-height: 30px;
+    }
+    .tab-content-input {
+        margin-bottom: 10px;
+    }
+    .tab-content-input label {
+        font-size: 12px;
+        line-height: 16px;
+    }
+    .my-mt-buttons button, .my-mt-buttons input {
+        padding: 8px 20px !important;
+        font-size: 14px !important;
+    }
+    .step:before {
+        height: 2px;
+    }
+    .upload-content {
+        margin-bottom: 15px;
+    }
+    .upload-content {
+        padding: 15px;
+    }
+    /*.inner-upload-content {
+        padding: 30px 15px;
+    }*/
+    .inner-upload-content h6 {
+        padding-bottom: 10px;
+    }
+    .bottom-upload-ct {
+        padding-top: 20px;
+    }
+    .bottom-upload-ct p {
+        padding-bottom: 20px;
+    }
+    
+    .wanted-content h1 {
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .wanted-content h4 {
+        font-size: 16px;
+        padding: 10px 0;
+        line-height: 20px;
+    }
+    .harvest-sec {
+        padding: 20px 0;
+    }
+    .wanted-farm-sec {
+        padding-top: 20px;
+    }
+    
+    .custom-form-title h1 {
+        font-size: 24px;
+    }
+    .custom-form-title {
+        padding-bottom: 20px;
+    }
+    .farmjob-card .farmjob-card-body img {
+        height: 200px !important;
+    }
+    .farmjob-card-body p {
+        font-size: 14px;
+    }
+    .farmjob-card-title {
+        font-size: 22px;
+    }
+    .latest-jobs .job-card-btn, .apply-btn, .bp-card-btn a {
+        font-size: 16px;
+        padding: 8px 15px;
+    }
+    .custom-fj-number h4 {
+        font-size: 14px;
+    }
+    .custom-pagination span, .custom-pagination a {
+        font-size: 12px;
+        padding: 0px 3px;
+    }
+    .farm-job-flex .colu-4 {
+        margin-bottom: 25px;
+    }
+    .custom-form-title-image {
+        width: 22%;
+    }
+    .my-multistep-form .tab-content-input input, .my-multistep-form .tab-content-input select {
+        font-size: 12px !important;
+    }
+    .upload-content label.file {
+        min-height: 200px;
+        padding: 25px 20px;
+    }
+}
