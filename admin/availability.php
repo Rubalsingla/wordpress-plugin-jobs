@@ -9,6 +9,9 @@ function availability()
     /* by admin*/
 
 
+    
+
+
     global $wpdb;
     $Bikes = $wpdb->prefix.'posts';
     $getbikes = $wpdb->get_results("Select * from $Bikes where post_type = 'motorcycle' and post_status='publish'");
