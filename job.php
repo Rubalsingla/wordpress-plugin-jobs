@@ -25,7 +25,7 @@ if ( ! defined( 'WPINC' ) ) {
 	die;
 
 
-
+    /*nhi add krna */
     /*nhi add krna */
     /*nhi add krna */
 }
