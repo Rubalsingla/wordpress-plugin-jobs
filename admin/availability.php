@@ -4,9 +4,8 @@ function availability()
 {
 
     /*New Code Push By Ravi */
-    
-
     /*testing */
+    /* New Branch by Rubal changes */
     /* by admin*/
 
     global $wpdb;
