@@ -2,9 +2,12 @@
 
 function availability() 
 {
-    /*testing */
 
+    /*New Code Push By Ravi */
+    /*testing */
     /* New Branch by Rubal changes */
+    /* by admin*/
+
     global $wpdb;
     $Bikes = $wpdb->prefix.'posts';
     $getbikes = $wpdb->get_results("Select * from $Bikes where post_type = 'motorcycle' and post_status='publish'");
