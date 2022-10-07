@@ -3,10 +3,8 @@
 function availability() 
 {
 
-    /*New Code Push By Ravi */
-    /*testing */
-    /* New Branch by Rubal changes */
-    /* by admin*/
+    /*New Code Push By Rubal 7-10-12 */
+    
 
 
     
